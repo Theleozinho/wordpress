@@ -37,8 +37,9 @@
     background-color: #e63888;
 }
 
-.bloco-c{
+.bloco-c, .bloco-c h2{
     background-color: #181818;
+    color: #fff;
 }
 
 .b-btn {
@@ -46,6 +47,8 @@
     color:#fff;
     }
 
+
+    
 @media screen and (min-width: 750px){
     
  
@@ -91,5 +94,5 @@
     --texto_background: #333;
     --texto_bg_escuro: #333;
     --texto_bg_claro: #333;
-    
+
 }
