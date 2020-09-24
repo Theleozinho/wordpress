@@ -1,0 +1,94 @@
+:root{
+    --color-pink: #e63888;
+
+}
+
+.banner{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.b-box {
+    padding: 1.5em;
+    
+}
+
+.b-box h2{
+    font-size: 30px;
+    margin: 1em 0em;
+    color: #000826cc;
+    font-weight: 700;
+}
+
+.b-btn, .a-btn{
+    padding: 1em 2em;
+    border: none;
+    border-radius: 40px;
+    background-color: #fff;
+    margin: 1em 0em;
+    color: var(--color-pink);
+    font-weight: 600;
+
+}
+
+.bloco-a{
+    background-color: #e63888;
+}
+
+.bloco-c{
+    background-color: #181818;
+}
+
+.b-btn {
+    background-color:var(--color-pink);
+    color:#fff;
+    }
+
+@media screen and (min-width: 750px){
+    
+ 
+    .b-box {
+        width: 49%;
+      
+    }
+
+    .banner {
+        align-items: center;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    
+}
+
+
+
+
+:root {
+    --cor_primaria: #46b06c;
+    --cor_secundaria: #46b06c;
+    --cor_botao: #46b06c;
+    --cor_botao_hover: #46b06c;
+    --cor_texto_botao: #fff;
+    --cor_texto_botao_hover: #fff;
+    --cor_botao_comprar: #46b06c;
+    --cor_cabecalho: #fff;
+    --cor_icones: #46b06c;
+    --cor_icones_hover: #222;
+    --cor_texto_icones: #222;
+    --cor_menu: #46b06c;
+    --cor_texto_menu: #fff;
+    --cor_footer: #46b06c;
+    --cor_texto_footer: #fff;
+    --cor_tag_frete_gratis: #425f6f;
+    --cor_texto_tag_frete_gratis: #fff;
+    --texto_global: #333;
+    --cor_clara: #fff;
+    --cor_escura: #333;
+    --texto_background: #333;
+    --texto_bg_escuro: #333;
+    --texto_bg_claro: #333;
+}

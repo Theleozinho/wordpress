@@ -1,0 +1,14 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+ <title/>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <polygon id="svg_1" points="271.13 230.8 331.35 106 222.39 106 194.12 287.22 246.47 287.22 240.99 307.22 266.47 307.22 247.07 377.98 328.24 250.8 291.13 250.8 300.79 230.8 271.13 230.8" fill="#fc0"/>
+  <line id="svg_2" y2="221.01" y1="220.01" x2="181.33" x1="181.48" stroke-width="20" stroke-linejoin="round" stroke-linecap="round" stroke="#e63888" fill="none"/>
+  <polyline id="svg_3" stroke-width="20" stroke-linejoin="round" stroke-linecap="round" stroke="#e63888" points="177.47000122070312,246.5052769780159 171,288.0052769780159 246.47000122070312,288.0052769780159 202.3800048828125,448.7852757573128 341,231.5852788090706 271.1300048828125,231.5852788090706 341,86.78527575731277 202.3800048828125,86.78527575731277 185.33999633789062,196.0852788090706 " fill="none"/>
+ </g>
+</svg>
