@@ -2,7 +2,6 @@
 
    const btnMenu = document.querySelector('.ico-menu');
    const menu = document.querySelector('.menu');
-alert("Ola mundo")
 
    function menuMobile(){
        

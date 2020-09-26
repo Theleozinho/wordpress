@@ -1,7 +1,9 @@
 header{
     display: flex;
     background-color: #e63888;
-    
+    position: fixed;
+    width: 100%;
+margin-bottom: 70px;
 }
 
 nav {
@@ -16,7 +18,7 @@ nav, nav ul {
     width: 100%;
 }
 .logo {
-    max-height: 35px;
+    max-height: 40px;
 }
 
 .logo-box{
@@ -27,9 +29,10 @@ nav, nav ul {
 }
 
 .logo-box h1 {
-    font-size: 1em;
+    font-size: 1.4em;
     margin-left: 10px;
     font-weight: 400;
+  
 }
 
 /*template*/

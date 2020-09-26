@@ -1,6 +1,6 @@
 :root{
     --color-pink: #e63888;
-
+    --color-white: #fff;
 }
 
 .banner{
@@ -12,6 +12,8 @@
 
 .b-box {
     padding: 1.5em;
+    margin-top: 70px;
+
     
 }
 
@@ -20,6 +22,7 @@
     margin: 1em 0em;
     color: #000826cc;
     font-weight: 700;
+      text-transform: uppercase;
 }
 
 .b-btn, .a-btn{
@@ -45,6 +48,10 @@
 .b-btn {
     background-color:var(--color-pink);
     color:#fff;
+    
+    }
+    .b-btn:hover {
+        animation: btn 1s;
     }
 
 
@@ -67,32 +74,16 @@
     
 }
 
-
-
-
-:root {
-    --cor_primaria: #46b06c;
-    --cor_secundaria: #46b06c;
-    --cor_botao: #46b06c;
-    --cor_botao_hover: #46b06c;
-    --cor_texto_botao: #fff;
-    --cor_texto_botao_hover: #fff;
-    --cor_botao_comprar: #46b06c;
-    --cor_cabecalho: #fff;
-    --cor_icones: #46b06c;
-    --cor_icones_hover: #222;
-    --cor_texto_icones: #222;
-    --cor_menu: #46b06c;
-    --cor_texto_menu: #fff;
-    --cor_footer: #46b06c;
-    --cor_texto_footer: #fff;
-    --cor_tag_frete_gratis: #425f6f;
-    --cor_texto_tag_frete_gratis: #fff;
-    --texto_global: #333;
-    --cor_clara: #fff;
-    --cor_escura: #333;
-    --texto_background: #333;
-    --texto_bg_escuro: #333;
-    --texto_bg_claro: #333;
-
+@keyframes btn{
+    
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5)
+    }
+    100%{
+        transform: scale(1);
+    }
 }
+
