@@ -56,16 +56,17 @@
 <section class="banner veloz">
 
     <div class="b-conteudo b-box">
-        <h2>Seu site é a primeira impressão que seu cliente tem da sua empresa</h2>
+        <h2>Por que usamos Wordpress?</h2>
+        <br>
+        <p> O <b>Wordpress</b> é um ecossistema que é utilizado para criar, gerenciar e publicar conteúdos na internet. Tudo isso de forma simplificada e intuitiva, sem exigir conhecimentos avançados de desenvolvimento web.</p>
+        <br/>
+        <p>Outro motivo é porque dispensa custos com assistência especializada para simples manutenções de rotina. Além disso, o <b>Wordpress é o CMS mais usado no mercado</b>.</p>
 
-        <p> ea se posiciona e é vista no espaço digital</p>
-        
-        <button class="b-btn">Saiba Mais</button>
 
     </div>
 
     <div class="b-img b-box">
-        <img src="img/About_us.svg" alt="imagem vetorizada de uma mulher sentada no celular" />
+        <img src="img/wordpress.svg" alt="imagem vetorizada de uma mulher sentada no celular"/>
     </div>
 </section>
 </div>

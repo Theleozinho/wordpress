@@ -3,18 +3,21 @@
     --color-white: #fff;
 }
 
+
+b{
+    font-weight: 600;
+}
 .banner{
     max-width: 1200px;
     margin: auto;
     display: flex;
     flex-direction: column;
+    color: #000;
 }
 
 .b-box {
     padding: 1.5em;
     margin-top: 70px;
-
-    
 }
 
 .b-box h2{
@@ -22,7 +25,7 @@
     margin: 1em 0em;
     color: #000826cc;
     font-weight: 700;
-      text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .b-btn, .a-btn{
