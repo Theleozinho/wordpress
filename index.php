@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?php bloginfo('template_url');?>/main.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_uri();?>">
     <title><?php bloginfo('name') | bloginfo('description');?></title>
     <script src="https://kit.fontawesome.com/11a8eb6726.js" crossorigin="anonymous"></script>
 
@@ -13,7 +13,7 @@
 <header>
     <nav>
         <span class="logo-box">
-            <img src="img/logo.svg" class="logo">
+            <img src="<?php bloginfo('template_url');?>/img/logo.svg" class="logo">
             <h1><?php bloginfo('name');?>/></h1>
             <button class="ico-menu"><i class="fas fa-bars"></i></button>
         </span>
@@ -43,7 +43,7 @@
     </div>
 
     <div class="b-img b-box">
-        <img src="img/banner-cel.svg" alt="imagem vetorizada de uma mulher sentada no celular" />
+        <img src="<?php bloginfo('template_url');?>/img/banner-cel.svg" alt="imagem vetorizada de uma mulher sentada no celular" />
     </div>
 </section>
 
@@ -66,7 +66,7 @@
     </div>
 
     <div class="b-img b-box">
-        <img src="img/wordpress.svg" alt="imagem vetorizada de uma mulher sentada no celular"/>
+        <img src="<?php bloginfo('template_url')?>/img/wordpress.svg" alt="imagem vetorizada de uma mulher sentada no celular"/>
     </div>
 </section>
 </div>
