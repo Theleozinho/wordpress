@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>DeveloPoc /></title>
+    <link rel="stylesheet" href="<?php bloginfo('template_url');?>/main.css">
+    <title><?php bloginfo('name') | bloginfo('description');?></title>
     <script src="https://kit.fontawesome.com/11a8eb6726.js" crossorigin="anonymous"></script>
 
 </head>
@@ -14,7 +14,7 @@
     <nav>
         <span class="logo-box">
             <img src="img/logo.svg" class="logo">
-            <h1>DeveloPoc /></h1>
+            <h1><?php bloginfo('name');?>/></h1>
             <button class="ico-menu"><i class="fas fa-bars"></i></button>
         </span>
 
@@ -116,6 +116,6 @@
     
 
 
-<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url');?>/main.js"></script>
 </body>
 </html>
