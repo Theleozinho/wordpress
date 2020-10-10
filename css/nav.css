@@ -38,7 +38,7 @@ nav, nav ul {
 }
 
 /*template*/
-nav a, .item-menu{
+nav a, .page-item {
     color: #fff;
     padding: 1em;
     font-size: 9pt;
@@ -67,6 +67,9 @@ nav a, .item-menu{
     }
     nav{
         justify-content: space-between;
+    }
+    nav a{
+        padding: 10px;
     }
 
     .ico-menu {

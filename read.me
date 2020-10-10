@@ -1,0 +1,31 @@
+
+//Serve para indentificar que esse layout é só para tela de post
+template post type: post
+
+
+//Função para criar post type 
+function meus_posts_type(){
+    //sobre
+    register_post_type(
+        'sobre',
+        array(
+            'labels' => array(
+                'name'    => __('Sobre')
+            ),
+            'public'     => true,
+            'has_archive' => true,
+            'menu_icon'   => 'dashicons-bank',
+            'supports'    =>  array(
+                            'title',
+                            'editor',
+                            'thumbnail', 
+                            'page-attributes'
+            ),
+        )
+    );
+}
+
+
+<!-- Pegando aimagem do thumbail e exibindo na tela --> 
+<?php the_post_thumbnail(); ?>
+

@@ -1,43 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?php echo get_stylesheet_uri();?>">
-    <title><?php bloginfo('name') | bloginfo('description');?></title>
-    <script src="https://kit.fontawesome.com/11a8eb6726.js" crossorigin="anonymous"></script>
-
-</head>
-<body>
-    
-<header>
-    <nav>
-        <span class="logo-box">
-            <img src="<?php bloginfo('template_url');?>/img/logo.svg" class="logo">
-            <h1><?php bloginfo('name');?>/></h1>
-            <button class="ico-menu"><i class="fas fa-bars"></i></button>
-        </span>
-
-        
-        <ul class="menu menu-mobile">
-            <li class="item-menu"> <a href="#">Home</a></li>
-            <li class="item-menu"> <a href="#">Sobre</a></li>
-            <li class="item-menu"> <a href="#">Portifolio</a></li>
-            <li class="item-menu"> <a href="#">Contato</a></li>
-        </ul>
-
-    </nav>
-    
-</header>
-
-
+<?php get_header(); ?>
+/*
+template name: home
+*/
 <!--Banner start-->
 <div class="bloco-a">
 <section class="banner">
     <div class="b-conteudo b-box">
-        <h2>agência especializada em criação de site em Wordpress</h2>
-        <p>A CNDL/SPC Brasil fez uma pesquisa que revela que 97% dos internautas buscam informações sobre o produto antes de comprar na loja física. </p><br />
-        <p>Para ajudar o seu negócio a ser encontrado online, criamos o seu site sob demanda de acordo com as regras de negócios. Tudo isso dentro do painel administrativo do Wordpress para você conseguir editar o conteúdo sem precisar de um programador.</p>
+        <h2> <?php the_field('home_titulo'); ?></h2>
+        <p><?php the_field('text_home_1');?></p>
         <button class="a-btn" style="width:50%">Solicitar orçamento</button>
 
     </div>
@@ -76,7 +46,7 @@
 <div class="bloco-c">
     <section class="banner veloz">
         <div class="b-img b-box">
-            <img src="img/dev.svg" alt="imagem vetorizada de uma mulher sentada no celular" />
+            <img src="<?php bloginfo('template_url')?>/img/dev.svg" alt="imagem vetorizada de uma mulher sentada no celular" />
         </div>
         <div class="b-conteudo b-box">
             <h2>Consultoria gratuita</h2>
@@ -108,14 +78,9 @@
         </div>
     
         <div class="b-img b-box">
-            <img src="img/fast-ico.svg" alt="imagem vetorizada de uma mulher sentada no celular" />
+            <img src="<?php bloginfo('template_url')?>/img/fast-ico.svg" alt="imagem vetorizada de uma mulher sentada no celular" />
         </div>
     </section>
     </div>
     
-    
-
-
-<script type="text/javascript" src="<?php bloginfo('template_url');?>/main.js"></script>
-</body>
-</html>
+    <?php get_footer(); ?>
